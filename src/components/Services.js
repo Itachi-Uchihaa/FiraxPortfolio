@@ -87,8 +87,6 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="separated" />
-        <Testimonials />
       </div>
     </section>
   );
