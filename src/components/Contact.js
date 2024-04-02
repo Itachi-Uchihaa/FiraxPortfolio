@@ -26,11 +26,11 @@ const Contact = () => {
                   </li>
                   <li className="media">
                     <i className="ti-email" />
-                    <span className="media-body">voldizola1@gmail.com</span>
+                    <span className="media-body">firasrassaa95@gmail.com</span>
                   </li>
                   <li className="media">
                     <i className="ti-mobile" />
-                    <span className="media-body">+33 06 70 26 42 31</span>
+                    <span className="media-body">+33 06 80 12 99 34</span>
                   </li>
                 </ul>
               </div>

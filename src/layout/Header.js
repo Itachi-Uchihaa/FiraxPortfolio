@@ -47,19 +47,7 @@ const Header = ({ blog }) => {
         </div>
         <div className="nav justify-content-center social-icons">
           <a href="#">
-            <i className="fab fa-facebook-f" />
-          </a>
-          <a href="#">
-            <i className="fab fa-twitter" />
-          </a>
-          <a href="#">
-            <i className="fab fa-instagram" />
-          </a>
-          <a href="#">
             <i className="fab fa-linkedin-in" />
-          </a>
-          <a href="#">
-            <i className="fab fa-pinterest" />
           </a>
         </div>
       </header>
@@ -87,12 +75,6 @@ const MenuWithOutBlog = () => {
         <a className="nav-link" href="#services">
           <i className="ti-panel" />
           <span>Services</span>
-        </a>
-      </li>
-      <li data-menuanchor="work">
-        <a className="nav-link" href="#work">
-          <i className="ti-bookmark-alt" />
-          <span>Portfolio</span>
         </a>
       </li>
       <li data-menuanchor="blog" className="blog">
@@ -142,14 +124,6 @@ const MenuWithBlog = () => {
             <a className="nav-link">
               <i className="ti-panel" />
               <span>Services</span>
-            </a>
-          </Link>
-        </li>
-        <li data-menuanchor="work">
-          <Link href="/#work">
-            <a className="nav-link">
-              <i className="ti-bookmark-alt" />
-              <span>Portfolio</span>
             </a>
           </Link>
         </li>
