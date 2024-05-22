@@ -25,7 +25,7 @@ const Index = () => {
                   <h6>Bonjour, je suis</h6>
                   <h1 className="font-alt">Firas Rassaa</h1>
                   <p className="lead">
-                    I Am Passionate <TypingAnimation />
+                    Je suis <TypingAnimation />
                   </p>
                   <p className="desc">
                     {"Bienvenue sur mon portfolio. Actuellement étudiant en BTS\n" +

@@ -13,7 +13,7 @@ const About = () => {
             <div className="about-me">
               <div className="img">
                 <div className="img-in">
-                  <img src="/demo/img/proposMoi.png" title="" alt="" />
+                  <img src="/demo/img/about.png" title="" alt="" />
                 </div>
               </div>
             </div>
@@ -47,14 +47,16 @@ const About = () => {
                       "micro et réseaux"}
                 </p>
                 <div className="btn-bar">
-                  <Link href="Cv-firax.pdf">
-                    <a className="px-btn px-btn-theme"  target="_blank">
+                  <Link href="TABLEAU.xlsx">
+                    <a className="px-btn px-btn-theme">
                       <span>Tableau</span>
                     </a>
                   </Link>
-                  <a className="px-btn px-btn-theme" href="#">
-                    <span>Programme BTS SIO</span>
-                  </a>
+                  <Link href="PROGRAMME.pdf">
+                    <a className="px-btn px-btn-theme"  target="_blank">
+                      <span>Programme BTS SIO</span>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -68,13 +70,13 @@ const About = () => {
           <div className="col-lg-4 m-15px-tb">
             <ul className="aducation-box">
               <li>
-                <span>2020-2023</span>
+                <span>2022-2024</span>
                 <h6>BTS Service informatique aux Organisations</h6>
                 <p>Ecole Ensitech - Cergy</p>
                 <p>France</p>
               </li>
               <li>
-                <span>2023-2023</span>
+                <span>2024-2025</span>
                 <h6>Bachelor NSS (Network Sécurité et Système)
                   Ensitech, Cergy (95)
                   2024/2025
@@ -153,7 +155,7 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <img src="static/img/a1.png" title="" alt="" />
+                  <img src="static/img/francereseaux.png" title="" alt="" />
                 </div>
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
@@ -175,7 +177,7 @@ const About = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <img src="static/img/a2.png" title="" alt="" />
+                  <img src="static/img/premiumcss.png" title="" alt="" />
                 </div>
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">

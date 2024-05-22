@@ -39,7 +39,7 @@ const Portfolio = () => {
     >
       <div className="container">
         <div className="title">
-          <h3>My Portfolio.</h3>
+          <h3>Mes Projets.</h3>
         </div>
         <div className="portfolio-filter-01">
           <ul className="filter nav">
@@ -48,35 +48,21 @@ const Portfolio = () => {
               onClick={handleFilterKeyChange("*")}
               data-filter="*"
             >
-              All
+              Tout
             </li>
             <li
               className={`c-pointer ${activeBtn("branding")}`}
               onClick={handleFilterKeyChange("branding")}
               data-filter=".branding"
             >
-              Branding
+              Première Année
             </li>
             <li
               className={`c-pointer ${activeBtn("photoshop")}`}
               onClick={handleFilterKeyChange("photoshop")}
               data-filter=".photoshop"
             >
-              Photoshop
-            </li>
-            <li
-              className={`c-pointer ${activeBtn("fashion")}`}
-              onClick={handleFilterKeyChange("fashion")}
-              data-filter=".fashion"
-            >
-              Fashion
-            </li>
-            <li
-              className={`c-pointer ${activeBtn("product")}`}
-              onClick={handleFilterKeyChange("product")}
-              data-filter=".product"
-            >
-              Product
+              deuxième année
             </li>
           </ul>
         </div>{" "}
