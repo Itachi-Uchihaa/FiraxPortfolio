@@ -7,16 +7,12 @@ const Contact = () => {
       >
         <div className="container">
           <div className="title">
-            <h3>Get in touch.</h3>
+            <h3>Contact</h3>
           </div>
           <div className="row">
             <div className="col-lg-5 col-xl-4 m-15px-tb">
               <div className="contact-info">
-                <h4>What’s your story? Get in touch</h4>
-                <p>
-                  Always available for freelancing if the right project comes
-                  along, Feel free to contact me.
-                </p>
+                <h4>Prenez contact avec moi</h4>
                 <ul>
                   <li className="media">
                     <i className="ti-map" />
@@ -32,19 +28,6 @@ const Contact = () => {
                     <i className="ti-mobile" />
                     <span className="media-body">+33 06 80 12 99 34</span>
                   </li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-7 col-xl-8 m-15px-tb">
-              <div className="contact-info">
-                <h4>Availability</h4>
-                <p>
-                  For any questions or concerns, please do not hesitate to contact me by email or phone. I am available during the following hours:
-                </p>
-                <ul>
-                  <li><strong>Monday-Tuesday :</strong> 10:00 AM - 6:20 PM</li>
-                  <li><strong>Saturday :</strong> 10:00 AM - 2:00 PM</li>
-                  <li><strong>Sunday :</strong> Closed</li>
                 </ul>
               </div>
             </div>
