@@ -1,5 +1,6 @@
 import Isotope from "isotope-layout";
 import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 const Portfolio = () => {
   // Isotope
   const isotope = useRef();
@@ -71,18 +72,16 @@ const Portfolio = () => {
           <div className="grid-item product branding fashion">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
-                <h5 className="white-color font-weight-bold">Momb ios App</h5>
-                <span>Broadcasting ios App</span>
+                <h5 className="white-color font-weight-bold">Tp Vlan</h5>
+                <Link href="TpVlan.pdf">
+                  <a className="px-btn px-btn-theme"  target="_blank">
+                    <span style={{color: "black"}}>Télécharger pdf</span>
+                  </a>
+                </Link>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/m-portfolio-1.jpg" title="" alt="" />
+                <img src="static/img/vlan.jpeg" title="" alt=""/>
                 <div className="portfolio-icon">
-                  <a
-                    href="static/img/m-portfolio-1.jpg"
-                    className="gallery-link"
-                  >
-                    <span className="ti-plus" />
-                  </a>
                 </div>
               </div>
             </div>
@@ -91,19 +90,15 @@ const Portfolio = () => {
           <div className="grid-item photoshop">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
-                <h5 className="white-color font-weight-bold">Momb ios App</h5>
-                <span>Broadcasting ios App</span>
+                <h5 className="white-color font-weight-bold">Glpi windows</h5>
+                <Link href="glpiwindows.pdf">
+                  <a className="px-btn px-btn-theme"  target="_blank">
+                    <span style={{color: "black"}}>Télécharger pdf</span>
+                  </a>
+                </Link>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/m-portfolio-2.jpg" title="" alt="" />
-                <div className="portfolio-icon">
-                  <a
-                    href="static/img/m-portfolio-2.jpg"
-                    className="gallery-link"
-                  >
-                    <span className="ti-plus" />
-                  </a>
-                </div>
+                <img src="static/img/glpwindows.jpeg" title="" alt="" />
               </div>
             </div>
           </div>{" "}
@@ -111,19 +106,15 @@ const Portfolio = () => {
           <div className="grid-item product branding">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
-                <h5 className="white-color font-weight-bold">Momb ios App</h5>
-                <span>Broadcasting ios App</span>
+                <h5 className="white-color font-weight-bold">Tuto création de machine virtuelle</h5>
+                <Link href="creationmachine.pdf">
+                  <a className="px-btn px-btn-theme"  target="_blank">
+                    <span style={{color: "black"}}>Télécharger pdf</span>
+                  </a>
+                </Link>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/m-portfolio-3.jpg" title="" alt="" />
-                <div className="portfolio-icon">
-                  <a
-                    href="static/img/m-portfolio-3.jpg"
-                    className="gallery-link"
-                  >
-                    <span className="ti-plus" />
-                  </a>
-                </div>
+                <img src="static/img/machinevirtuelle.jpeg" title="" alt="" />
               </div>
             </div>
           </div>{" "}
@@ -131,19 +122,15 @@ const Portfolio = () => {
           <div className="grid-item product photoshop">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
-                <h5 className="white-color font-weight-bold">Momb ios App</h5>
-                <span>Broadcasting ios App</span>
+                <h5 className="white-color font-weight-bold">Tuto glpi ubuntu</h5>
+                <Link href="GlpiUbuntu.pdf">
+                  <a className="px-btn px-btn-theme"  target="_blank">
+                    <span style={{color: "black"}}>Télécharger pdf</span>
+                  </a>
+                </Link>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/m-portfolio-5.jpg" title="" alt="" />
-                <div className="portfolio-icon">
-                  <a
-                    href="static/img/m-portfolio-5.jpg"
-                    className="gallery-link"
-                  >
-                    <span className="ti-plus" />
-                  </a>
-                </div>
+                <img src="static/img/ubuntu.jpeg" title="" alt="" />
               </div>
             </div>
           </div>{" "}
@@ -151,19 +138,15 @@ const Portfolio = () => {
           <div className="grid-item branding">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
-                <h5 className="white-color font-weight-bold">Momb ios App</h5>
-                <span>Broadcasting ios App</span>
+                <h5 className="white-color font-weight-bold">Call center</h5>
+                <Link href="CenterCall.pdf">
+                  <a className="px-btn px-btn-theme"  target="_blank">
+                    <span style={{color: "black"}}>Télécharger pdf</span>
+                  </a>
+                </Link>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/m-portfolio-4.jpg" title="" alt="" />
-                <div className="portfolio-icon">
-                  <a
-                    href="static/img/m-portfolio-4.jpg"
-                    className="gallery-link"
-                  >
-                    <span className="ti-plus" />
-                  </a>
-                </div>
+                <img src="static/img/callcenter.jpeg" title="" alt="" />
               </div>
             </div>
           </div>{" "}
@@ -171,83 +154,18 @@ const Portfolio = () => {
           <div className="grid-item product photoshop">
             <div className="portfolio-box-01">
               <div className="portfolio-info">
-                <h5 className="white-color font-weight-bold">Momb ios App</h5>
-                <span>Broadcasting ios App</span>
+                <h5 className="white-color font-weight-bold">Tuto active directory</h5>
+                <Link href="Tutodirectory.pdf">
+                  <a className="px-btn px-btn-theme"  target="_blank">
+                    <span style={{color: "black"}}>Télécharger pdf</span>
+                  </a>
+                </Link>
               </div>
               <div className="portfolio-img">
-                <img src="static/img/m-portfolio-6.jpg" title="" alt="" />
-                <div className="portfolio-icon">
-                  <a
-                    href="static/img/m-portfolio-6.jpg"
-                    className="gallery-link"
-                  >
-                    <span className="ti-plus" />
-                  </a>
-                </div>
+                <img src="static/img/activeDirectory.jpeg" title="" alt="" />
               </div>
             </div>
           </div>{" "}
-          {/* grid item */}
-          <div className="grid-item fashion">
-            <div className="portfolio-box-01">
-              <div className="portfolio-info">
-                <h5 className="white-color font-weight-bold">Momb ios App</h5>
-                <span>Broadcasting ios App</span>
-              </div>
-              <div className="portfolio-img">
-                <img src="static/img/m-portfolio-7.jpg" title="" alt="" />
-                <div className="portfolio-icon">
-                  <a
-                    href="static/img/m-portfolio-7.jpg"
-                    className="gallery-link"
-                  >
-                    <span className="ti-plus" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>{" "}
-          {/* grid item */}
-          <div className="grid-item product branding">
-            <div className="portfolio-box-01">
-              <div className="portfolio-info">
-                <h5 className="white-color font-weight-bold">Momb ios App</h5>
-                <span>Broadcasting ios App</span>
-              </div>
-              <div className="portfolio-img">
-                <img src="static/img/m-portfolio-8.jpg" title="" alt="" />
-                <div className="portfolio-icon">
-                  <a
-                    href="static/img/m-portfolio-8.jpg"
-                    className="gallery-link"
-                  >
-                    <span className="ti-plus" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>{" "}
-          {/* grid item */}
-          <div className="grid-item fashion">
-            <div className="portfolio-box-01">
-              <div className="portfolio-info">
-                <h5 className="white-color font-weight-bold">Momb ios App</h5>
-                <span>Broadcasting ios App</span>
-              </div>
-              <div className="portfolio-img">
-                <img src="static/img/m-portfolio-9.jpg" title="" alt="" />
-                <div className="portfolio-icon">
-                  <a
-                    href="static/img/m-portfolio-9.jpg"
-                    className="gallery-link"
-                  >
-                    <span className="ti-plus" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>{" "}
-          {/* grid item */}
         </div>
       </div>
     </section>

@@ -168,6 +168,12 @@ mark {
   color: #fff;
   box-shadow: 4px 4px #fff;
 }
+.px-btn2.px-btn-theme2 {
+  background: #2fa9bf;
+  color: #fff;
+  box-shadow: 4px 4px #fff;
+}
+
 .theme-light .px-btn.px-btn-theme {
   box-shadow: 4px 4px #0b0b13;
 }
